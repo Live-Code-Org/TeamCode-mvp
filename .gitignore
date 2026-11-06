@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json.bak
+
+# Environment variables & Secrets (קריטי במודל Open Core - לעולם לא לדחוף לגיט)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor configurations
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+
+# Build & Dist
+dist/
+build/
